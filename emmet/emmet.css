@@ -1,0 +1,30 @@
+/* ## 🎨 Raccourcis Emmet pour CSS
+
+| Abréviation | Résultat CSS                          |
+|-------------|----------------------------------------|
+| `m10`       | `margin: 10px;`                        |
+| `p20-10`    | `padding: 20px 10px;`                  |
+| `w100`      | `width: 100px;`                        |
+| `h100p`     | `height: 100%;`                        |
+| `bgc`       | `background-color: ;`                  |
+| `c#333`     | `color: #333;`                         |
+| `fs20`      | `font-size: 20px;`                     |
+| `d:f`       | `display: flex;`                       |
+| `jc:c`      | `justify-content: center;`             |
+| `ai:c`      | `align-items: center;`                 |
+| `pos:a`     | `position: absolute;`                  |
+| `t0`        | `top: 0;`                              |
+| `b0`        | `bottom: 0;`                           |
+| `trf:ro45`  | `transform: rotate(45deg);`            |
+
+---
+
+### 💡 Exemple combiné */
+
+/* ```emmet
+d:f+ai:c+jc:sb+p20
+``` */
+
+/* .theBestClassEver {
+    d:f+ai:c+jc:sb+p20
+} */

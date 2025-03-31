@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.desktop-only,
+.mobile-only {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    max-width: 500px;
+    font-size: 1.2rem;
+    background: #e0f7fa;
+}
+
+/* 📱 Cacher le bloc "desktop" sur les petits écrans */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* 💻 Cacher le bloc "mobile" sur les grands écrans */
+@media (min-width: 769px) {
+    .mobile-only {
+        display: none;
+    }
+}

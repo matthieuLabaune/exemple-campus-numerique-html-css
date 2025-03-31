@@ -1,0 +1,40 @@
+/* 🌐 Mise en page principale avec Flexbox */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .header, .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .content {
+    flex: 1;
+    padding: 2rem;
+    background: #f5f5f5;
+  }
+
+  /* 🧱 Grille de cartes avec Grid */
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }

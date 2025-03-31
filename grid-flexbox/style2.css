@@ -1,0 +1,132 @@
+/* 🌿 Style de base */
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* 🔶 FLEXBOX */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background: #e0f7fa;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.flex-item {
+    flex: 1;
+    background: #00bcd4;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* 🧠 Flexbox permet d'aligner les éléments sur une seule ligne (axe principal),
+     ici on les espace avec `justify-content: space-between` */
+
+
+/* 📱 Sur les petits écrans : on empile */
+/* @media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+} */
+
+
+/* 🔷 GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    background: #ede7f6;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.grid-item {
+    background: #673ab7;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.grid {
+    display: grid;
+    background: #ede7f6;
+    grid-template-columns: repeat(12, 1fr);
+    /* 12 colonnes égales */
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.col {
+    background: #673ab7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* 💡 Classes pour les largeurs */
+.col-1 {
+    grid-column: span 1;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-5 {
+    grid-column: span 5;
+}
+
+.col-6 {
+    grid-column: span 6;
+}
+
+.col-7 {
+    grid-column: span 7;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
+.col-9 {
+    grid-column: span 9;
+}
+
+.col-10 {
+    grid-column: span 10;
+}
+
+.col-11 {
+    grid-column: span 11;
+}
+
+.col-12 {
+    grid-column: span 12;
+}
+
+/* 🧠 Grid permet de gérer les lignes ET les colonnes,
+     ici on crée une grille fluide avec des blocs qui s’adaptent */

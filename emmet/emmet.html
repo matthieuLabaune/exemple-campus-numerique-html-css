@@ -1,0 +1,83 @@
+
+🔹 1. Création d’un élément simple
+<div></div>
+
+🔹 2. Ajout de classes et d’identifiants
+<!-- div.masuperclass -->
+
+<!-- div.container#main -->
+
+🔹 3. Élément avec contenu texte
+<!-- p{Bonjour le monde} -->
+
+🔹 4. Hiérarchie d’éléments
+<!-- ul>li*3 -->
+
+🔹 5. Multiplication avec contenu dynamique
+<!-- ul>li.item$*5 -->
+
+
+🔹 7. Formulaire de base en un clin d’œil
+<!-- form:post>input:text[name=nom]+input:email[name=email]+textarea[name=message]+button:submit{Envoyer} -->
+
+🔹 8. Table complète
+<!-- table>thead>tr>th*3^^tbody>tr*3>td*3 -->
+
+
+🔹 9. Page html complète
+<!-- ! -->
+
+ou
+
+<!-- html:5 -->
+
+
+🔹 10. Snippet (Snippet → littéralement : un “petit morceau coupé” (de code, en l’occurrence))
+<!-- "Page HTML de base": {
+    "prefix": "htmlstarter",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"fr\">",
+      "<head>",
+      "  <meta charset=\"UTF-8\">",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "  <title>${1:Titre de la page}</title>",
+      "  <link rel=\"stylesheet\" href=\"style.css\">",
+      "</head>",
+      "<body>",
+      "  <header>",
+      "    <h1>${2:Bienvenue}</h1>",
+      "  </header>",
+      "  <main>",
+      "    <p>${3:Contenu principal}</p>",
+      "  </main>",
+      "  <footer>",
+      "    <p>${4:Pied de page}</p>",
+      "  </footer>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Squelette HTML5 complet"
+  } -->
+
+
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenue</h1>
+    </header>
+    <main>
+      <p>Contenu principal</p>
+    </main>
+    <footer>
+      <p>Pied de page</p>
+    </footer>
+  </body>
+  </html>

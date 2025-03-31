@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Différence entre rem et em</title>
+    <style>
+        /* Définir la taille de police de base sur l'élément racine */
+        html {
+            font-size: 16px;
+            /* 1rem = 16px */
+        }
+
+        /* Utilisation de rem - Toujours basé sur la taille de html */
+        .rem-text {
+            font-size: 2rem;
+            /* 2 * 16px = 32px */
+            color: blue;
+        }
+
+        /* Utilisation de em - Basé sur la taille du parent */
+        .em-container {
+            font-size: 20px;
+            /* Taille de base pour le conteneur */
+        }
+
+        .em-text {
+            font-size: 1.5em;
+            /* 1.5 * 20px = 30px */
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Différence entre <code>rem</code> et <code>em</code></h1>
+    <p class="rem-text">Texte avec rem (2rem = 32px)</p>
+
+    <div class="em-container">
+        <p class="em-text">Texte avec em (1.5em = 30px)</p>
+    </div>
+
+    <p>Rem est toujours basé sur la taille définie dans l'élément racine (<code>html</code>),
+        tandis que em est basé sur la taille du parent direct.</p>
+</body>
+
+</html>
