@@ -1,9 +1,11 @@
-Les normes des dimensions des conteneurs. (ex : le main : max-width 1200px ?).
-importer police sur linux
-em vs rem
-utilisation grid/flexbox
-effet de couleur estompé derrier un texte
-afficher/disparaitre des éléments en fonction de taille d’ecran
-exemple type de responsive entre pc et tél
+## Exemple HTML/CSS DÉVELOPPEURS AVANCÉS
+Mars 2025
 
-Démonstration édition css directement dans le firefox
+### Liste des exemples 
+- Les normes des dimensions des conteneurs (container-size)
+- importer police sur linux
+- em vs rem
+- utilisation grid/flexbox
+- afficher/disparaitre des éléments en fonction de taille d’ecran
+- exemple type de responsive entre pc et tél
+- image en responsive
